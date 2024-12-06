@@ -6,26 +6,32 @@
 
 body {
   background-color: white;
-  position: absolute;
-  border: 2px solid black;
+  position: relative;
+  border: 3px solid black;
   border-radius: 30px;
-  padding: 15rem 15rem;
+  padding: 10rem;
   margin: 1rem;
   display: flex;
   flex-direction: column;
+  height: 50rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .box {
-  position: relative;
-  padding-bottom: 2rem;
+  position: absolute;
+  padding: 3rem;
+  text-transform: capitalize;
 }
 
 .address {
-  position: relative;
+  position: absolute;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 .bottom {
-  bottom: 10px;
+  position: absolute;
+  bottom: 1rem;
+  justify-content: center;
 }
