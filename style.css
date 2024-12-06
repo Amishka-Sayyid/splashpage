@@ -6,16 +6,27 @@
 
 body {
   background-color: white;
-}
-
-.box {
-  position: absolute;
+  position: relative;
   border: 2px solid black;
   border-radius: 25px;
   padding: 15rem;
   margin: 1rem;
 }
-.content {
-  position: relative;
+}
+
+.box {
+  position: absolute;
   align-items: center;
+  
+}
+
+.address  {
+    position: absolute;
+  padding: 4rem;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+.bottom{
+    position: absolute;
 }
